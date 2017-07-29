@@ -426,4 +426,59 @@ form button {
     letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .header-content p:first-child {
+        font-size: 66px;
+    }
+    .header-content p:nth-child(2) {
+        font-size: 26px;
+    }
+    #wave2 {
+        bottom: -20px;
+        width: 324px;
+    }
+    #wave1 {
+        bottom: -30px;
+        width: 242px;
+    }
+    .container-fluid-projects-content {
+        flex-direction: column;
+    }
+    .container-fluid-projects-content-right {
+        width: 100vw;
+        max-width: 100%;
+    }
+    .container-fluid-companys-culture-content {
+        flex-direction: column;
+    }
+    .container-fluid-companys-culture-content-left {
+        width: 100vw;
+        max-width: 100%;
+    }
+    #wave3 {
+        bottom: -19px;
+        width: 294px;
+    }
+    .container-fluid-experience-content {
+        flex-direction: column;
+    }
+    .container-fluid-experience-content-right {
+        width: 100vw;
+        max-width: 100%;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-content-left {
+        width: 100vw;
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-content-right {
+        width: 100vw;
+        max-width: 100%;
+    }
+    button {
+        margin-bottom: 10px;
+    }
+}
