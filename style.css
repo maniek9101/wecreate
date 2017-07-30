@@ -427,6 +427,9 @@ form button {
 }
 
 @media only screen and (max-width: 768px) {
+    .header-nav {
+        display: none;
+    }
     .header-content p:first-child {
         font-size: 66px;
     }
@@ -438,7 +441,7 @@ form button {
         width: 324px;
     }
     #wave1 {
-        bottom: -30px;
+        bottom: 25px;
         width: 242px;
     }
     .container-fluid-projects-content {
@@ -446,6 +449,7 @@ form button {
     }
     .container-fluid-projects-content-right {
         width: 100vw;
+        min-width: initial;
         max-width: 100%;
     }
     .container-fluid-companys-culture-content {
@@ -453,6 +457,7 @@ form button {
     }
     .container-fluid-companys-culture-content-left {
         width: 100vw;
+        min-width: initial;
         max-width: 100%;
     }
     #wave3 {
@@ -464,6 +469,7 @@ form button {
     }
     .container-fluid-experience-content-right {
         width: 100vw;
+        min-width: initial;
         max-width: 100%;
     }
     .footer-content {
@@ -476,6 +482,7 @@ form button {
     }
     .footer-content-right {
         width: 100vw;
+        min-width: initial;
         max-width: 100%;
     }
     button {
