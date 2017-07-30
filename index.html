@@ -13,6 +13,9 @@
 <body>
     <header class="flex-center">
         <div class="header-nav">
+            <div class="header-nav-mobile">
+                <div class="header-nav-button"></div>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#">PROJECTS</a></li>
@@ -100,6 +103,15 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.header-nav-button').click(function() {
+                $('header nav').toggleClass('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
