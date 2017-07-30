@@ -467,6 +467,7 @@ form button {
         height: 40px;
         border: 1px solid white;
         background: wheat;
+        z-index: 2;
     }
     .header-nav-button {
         position: absolute;
