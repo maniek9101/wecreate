@@ -23,17 +23,11 @@ header {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid black;
 }
 
 header nav ul {
     display: flex;
     list-style: none;
-    border: 1px solid blue;
-}
-
-header nav ul li {
-    border: 1px solid gold;
 }
 
 header nav ul a {
@@ -47,28 +41,28 @@ header nav ul a {
 .header-nav {
     position: absolute;
     top: 30px;
-    border: 1px solid white;
+}
+
+.header-nav-button {
+    display: none;
 }
 
 .header-content {
     width: 100vw;
     max-width: 935px;
     height: auto;
-    border: 1px solid gold;
 }
 
 .header-content p:first-child {
     font-size: 116px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    border: 1px solid wheat;
 }
 
 .header-content p:nth-child(2) {
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    border: 1px solid wheat;
 }
 
 #wave1 {
@@ -89,7 +83,6 @@ header nav ul a {
     width: 100vw;
     max-width: 100%;
     height: auto;
-    border: 1px solid black;
     margin-top: 70px;
 }
 
@@ -97,7 +90,6 @@ header nav ul a {
     width: 100vw;
     max-width: 935px;
     height: auto;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -105,7 +97,6 @@ header nav ul a {
     position: relative;
     width: auto;
     height: auto;
-    border: 1px solid orange;
     padding-left: 100px;
     padding-right: 45px;
 }
@@ -156,14 +147,12 @@ header nav ul a {
     background: url("images/img1.jpg");
     background-position: center center;
     background-size: cover;
-    border: 1px solid olive;
 }
 
 .container-fluid-companys-culture {
     width: 100vw;
     max-width: 100%;
     height: auto;
-    border: 1px solid black;
     margin-top: 60px;
     margin-bottom: 85px;
 }
@@ -172,7 +161,6 @@ header nav ul a {
     width: 100vw;
     max-width: 935px;
     height: auto;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -183,14 +171,12 @@ header nav ul a {
     background: url("images/img2.jpg");
     background-position: center center;
     background-size: cover;
-    border: 1px solid blue;
 }
 
 .container-fluid-companys-culture-content-right {
     position: relative;
     width: auto;
     height: auto;
-    border: 1px solid orange;
     padding-left: 145px;
     padding-top: 20px;
 }
@@ -239,7 +225,6 @@ header nav ul a {
     background: url("images/fullbg.jpg");
     background-position-x: right;
     background-size: cover;
-    border: 1px solid red;
 }
 
 #wave3 {
@@ -253,7 +238,6 @@ header nav ul a {
     width: 100vw;
     max-width: 935px;
     height: auto;
-    border: 1px solid blue;
 }
 
 .container-fluid-our-crazy-ideas-content p {
@@ -268,14 +252,12 @@ header nav ul a {
     max-width: 100%;
     height: auto;
     margin-top: 102px;
-    border: 1px solid black;
 }
 
 .container-fluid-experience-content {
     width: 100vw;
     max-width: 935px;
     height: auto;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -283,7 +265,6 @@ header nav ul a {
     position: relative;
     width: auto;
     height: auto;
-    border: 1px solid olivedrab;
     padding-left: 155px;
 }
 
@@ -291,7 +272,6 @@ header nav ul a {
     height: 305px;
     width: 365px;
     min-width: 365px;
-    border: 1px solid brown;
     background: url("images/img3.jpg");
     background-position: center center;
     background-size: cover;
@@ -341,21 +321,18 @@ footer {
     background: url("images/bg2.jpg");
     background-position: center center;
     background-size: cover;
-    border: 1px solid rebeccapurple;
     margin-top: 55px;
 }
 
 .footer-content {
     width: 100vw;
     max-width: 935px;
-    border: 1px solid azure;
     display: flex;
 }
 
 .footer-content-left {
     width: 570px;
     height: 450px;
-    border: 1px solid wheat;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -376,12 +353,10 @@ footer {
 .footer-content-right {
     width: 365px;
     min-width: 365px;
-    border: 1px solid skyblue;
     float: right;
 }
 
 form {
-    border: 1px solid white;
     height: 100%;
     padding-top: 25px;
 }
@@ -452,6 +427,7 @@ form button {
     }
     header nav ul li {
         text-align: center;
+        border-bottom: 1px solid #ffffff;
     }
     .header-nav-mobile {
         position: fixed;
@@ -459,7 +435,6 @@ form button {
         left: 0;
         width: 100%;
         height: 40px;
-        border: 1px solid white;
         background: #8446b9;
         opacity: 0.9;
         display: flex;
@@ -467,10 +442,10 @@ form button {
         justify-content: center;
     }
     .header-nav-button {
+        display: block;
         font-family: 'Montserrat', sans-serif;
         font-size: 36px;
         color: #ffffff;
-        border: 1px solid red;
     }
     .header-content p:first-child {
         font-size: 66px;
