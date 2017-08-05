@@ -14,7 +14,7 @@
     <header class="flex-center">
         <div class="header-nav">
             <div class="header-nav-mobile">
-                <div class="header-nav-button"></div>
+                <div class="header-nav-button">Menu</div>
             </div>
             <nav>
                 <ul>
@@ -107,7 +107,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
-            $('.header-nav-button').click(function() {
+            $('.header-nav-button, header nav ul li a').click(function() {
                 $('header nav').toggleClass('active');
             });
         });
